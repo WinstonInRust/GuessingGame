@@ -15,7 +15,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             Ok(num) => num,
             Err(_) => {
                 println!("Verkeerd getal!");
-                continue;
+                continue
             }
         };
 
@@ -24,7 +24,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             Ordering::Greater => println!("Te Hoog!"),
             Ordering::Equal => {
                 println!("Je hebt het getal geraden! Je wint het spel...");
-                break;
+                break
             }
         }
     }
